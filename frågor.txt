@@ -1,0 +1,20 @@
+- När använder man add respektive commit?
+Add signalerar till Git att valda filer med ändringar ska vara med i nästa commit. Om man skriver git add . 
+innebär det alla filer. Man kan också skriva enskilda filnamn. Add lägger mina ändringar i staging area.
+
+Git commit skapar en commit med de ändringar du signlerade i add-steget. Commit innebär att du som utvecklare har 
+gjort en förändring. Commit flyttar ändringarna från staging area och lägger i mitt repository.
+
+- Vad är pull repektive push?
+Pull används när någon annan har gjort ändringar och jag ska hämta dom till mitt repository.
+
+Push används när jag gjort ändringar och ska ladda upp dom till det centrala repositoryt. 
+
+- När använder man log respektive status?
+Log visar alla tidigare commits i den aktuella branchen.
+
+Status visar mina filer med ändringar som är stagede för nästa commit.
+
+- Vad är en Git branch och varför är de viktiga?
+En branch är en specifik gren av applikationsutveckling. Den används för att isolera kodändringar och möjliggör 
+arbete på en del av projektet fristående från andra utvecklingsaktiviteter.
